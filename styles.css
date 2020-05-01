@@ -1,0 +1,54 @@
+/* fonts
+font-family: 'Montserrat', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Righteous', cursive;
+font-family: 'IBM Plex Sans', sans-serif;
+*/
+
+/* Colors
+first-player: #05dfd7
+text: #ec7373
+second-player: #d8b5b5
+background: #ffe196
+*/
+
+body {
+  text-align: center;
+  color: #ec7373;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #ffe196;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+#colorTurn{
+  font-size: 19px;
+}
+
+#grid {
+  margin: 20px auto;
+  display: table;
+  width: 415px;
+  height: 360px;
+  padding: 10px;
+  background: blue;
+  border: 1px solid #0044aa;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+  border-spacing: 5px 5px;
+}
+
+.row {
+  display: table-row;
+}
+
+.cell{
+  display: table-cell;
+  background-color: #Ffffff;
+  width: 50px;
+  height: 50px;
+  margin: 2px;
+  border-radius: 50%;
+}
